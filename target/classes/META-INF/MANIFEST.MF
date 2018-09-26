@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: ZSECUPII API
+Implementation-Version: 0.0.81
+Built-By: Kaneki
+Implementation-Vendor-Id: pl.aogiri
+Build-Jdk: 1.8.0_181
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/zsecup2
+Created-By: Maven Integration for Eclipse
+

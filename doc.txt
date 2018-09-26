@@ -1,0 +1,50 @@
+User
+
+GET /users -> Return list of users
+
+GET /user/{id} -> Return a user
+
+GET /user/{id}/full -> Return full user (user with teams and user's matches)
+
+
+
+Team
+
+GET /teams -> Return list of teams
+
+GET /team/{id} -> Return a team
+
+GET /team/{id}/full -> Return full team (team with players and team's matches)
+
+GET /team/{id}/matches -> Return team with team's matches
+
+GET /team/{id}/users -> Return team with players
+
+
+Match
+
+GET /matches -> Return list of matches
+
+GET /match/{id} -> Return a match
+
+GET /match/{id}/full -> Return a full match (match with teams and team's players)
+
+zsecup2 : 8735851c-3746-4d03-b7a4-0cd3b129ef02
+
+  		<dependency>
+    		<groupId>org.springframework.boot</groupId>
+    		<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		
+		
+		
+Token
+
+PUT /api/token -mat>
+errors : 
+700 - decryption error
+701 - token used
+
+702 - bad token
+
+705 - token not activated
